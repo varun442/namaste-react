@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from 'react-dom/client'
 /**
  *
  *  <div id="parent">
@@ -10,7 +12,7 @@
  */
 const paragraph = React.createElement("p", {}, "Paragraph");
 
-const heading = React.createElement("h1", {}, "Hello From React!!");
+const heading = React.createElement("h1", {}, "Hello From React!! :fire");
 
 const child = React.createElement("div", { id: "child" }, heading, paragraph);
 
